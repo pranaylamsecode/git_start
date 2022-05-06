@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/tiaaifas/public_html/git_start
+    - /bin/cp -R images $DEPLOYPATH
