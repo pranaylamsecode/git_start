@@ -1,5 +1,8 @@
----
+
 deployment:
-  tasks:
-    - export DEPLOYPATH=/home/tiaaifas/public_html/git_deploy
-    - /bin/cp -R images $DEPLOYPATH
+      tasks:
+        - export DEPLOYPATH=/home/tiaaifas/public_html/git_start
+       
+        
+        - /bin cp * $DEPLOYPATH #copy all from root 
+       
