@@ -1,5 +1,9 @@
 
+  
+---
 deployment:
-  tasks:
-    - export DEPLOYPATH=/home/tiaaifas/public_html/
-    - /bin/cp -r * $DEPLOYPATH
+      tasks:
+        - export DEPLOYPATH=/home/tiaaifas/public_html  # Add /<app_folder> if required
+                                #copy all from root 
+        - /bin cp /home/tiaaifas/public_html/git_start/ * $DEPLOYPATH             #copy all from sub folder root
+        
